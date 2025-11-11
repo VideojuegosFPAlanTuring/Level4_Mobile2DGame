@@ -87,8 +87,7 @@ public class LaunchManager : MonoBehaviour
 
     private void GoToEndScene()
     {
-        //SceneManager.LoadScene("EndGame");
-        Debug.Log("End Game");
+        SceneManager.LoadScene("EndGame");        
     }
 
 }
